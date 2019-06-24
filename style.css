@@ -106,6 +106,15 @@
     font-family: 'Oxygen', sans-serif;
 }
 
+footer {
+    text-align: center;
+    display: none;
+}
+/*Home Main Content*/
+.mainContent {
+    display: none;
+}
+
 /*About Styling*/
 .header h1 {
     flex-grow: 2;
