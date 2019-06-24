@@ -1,11 +1,23 @@
+/*Universal Styling*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Variables*/
+:root {
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+}
+
+/*Home Styling*/
 .homeHeader h1 {
     color: white;
+    font-size: 6rem;
+    flex-grow: 2;
+    text-align: center;
 }
 
 .homeHeader {
@@ -31,15 +43,29 @@
 .homeHeader-top {
     position: relative;
     z-index: 2;
-    height: 90px;
-}
-
-.homeHeader {
     display: flex;
-    justify-content: center;
     justify-content: space-around;
+    width: 100%;
+    align-items: center;
 }
 
+.btn {
+    display: inline-block;
+    background: blue;
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: rem;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/*About Styling*/
 .header h1 {
     flex-grow: 2;
 }
