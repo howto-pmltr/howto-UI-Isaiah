@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.header h1 {
+    flex-grow: 2;
+}
+
+.container {
+    margin-top: 2rem;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    grid-gap: 2rem;
+}
+
+.marketing {
+    display: grid;
+    justify-items: center;
+    grid-gap: 2rem;
+}
+
+.holder {
+    display: grid;
+    align-items: center;
+}
+
+.appDevelopment {
+    display: grid;
+    justify-items: center;
+    grid-gap: 2rem;
+}
+
+.aboutT {
+    text-align: center;
+}
+
+.people {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img:hover {
+    cursor: pointer;
+}
