@@ -1,5 +1,4 @@
 // DOM Selectors
-//const learnMore = document.querySelector("#learnMore");
 const mainContent = document.querySelector(".mainContent");
 const footer = document.querySelector(".footer");
 

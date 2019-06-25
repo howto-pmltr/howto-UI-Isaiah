@@ -5,19 +5,22 @@
     box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Variables/Styles*/
 :root {
     --primary-color: #c40b13;
 }
 
+/*Animation Classes*/
+
 /*Home Styling*/
-.homeHeader h1 {
-    color: white;
-    font-size: 6rem;
-    flex-grow: 2;
-    text-align: center;
-    font-family: 'Oxygen', sans-serif;
-}
 
 #menu {
     color: var(--primary-color);
@@ -61,13 +64,18 @@
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
+.homeLogo {
+    width: 40%;
+    height: auto;
+}
+
 .homeHeader-top {
     position: relative;
     z-index: 2;
     display: flex;
     justify-content: space-around;
-    width: 100%;
     align-items: center;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .homeHeader-bottom {
@@ -103,16 +111,38 @@
     text-align: center;
     font-size: 2rem;
     margin-top: 5rem;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
     text-align: center;
     display: none;
 }
+
 /*Home Main Content*/
 .mainContent {
     display: none;
+    margin-top: 2rem;
+}
+
+.mainCreate {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 12rem;
+}
+
+.createDiv {
+    text-align: center;
+    align-self: center;
+}
+
+.mainCreate img {
+    filter: grayscale(20%);
+    border-radius: 12px;
+    width: 80%;
+    height: 500%;
 }
 
 /*About Styling*/
@@ -156,6 +186,6 @@ footer {
     flex-direction: column;
 }
 
-img:hover {
+#img:hover {
     cursor: pointer;
 }
