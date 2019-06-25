@@ -39,11 +39,11 @@ p {
     border: 3px solid black;
     width: 20%;
     background: white;
-    display: none;
+    opacity: 0;
 }
 
 .toggleMenu {
-    display: block;
+    opacity: 1;
 }
 
 .menuItems a{
@@ -58,6 +58,7 @@ p {
     align-items: center;
     transition: opacity 0.2s ease-in;
     margin-top: 5px;
+    border-bottom: 1px solid transparent;
 }
 
 .menuItems a:hover{
@@ -144,8 +145,8 @@ p {
     color: white;
     text-align: center;
     font-size: 1.9rem;
-    margin-top: 4rem;
     font-family: 'Roboto', sans-serif;
+    padding-top: 1rem;
 }
 
 footer {
