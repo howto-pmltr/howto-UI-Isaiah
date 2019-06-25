@@ -257,6 +257,7 @@ footer a:last-child {
     grid-gap: 12rem;
     margin-bottom: 11rem;
     color: white;
+    display: none;
 }
 
 .findDiv {
@@ -276,6 +277,7 @@ footer a:last-child {
     grid-gap: 12rem;
     margin-bottom: 11rem;
     color: white;
+    display: none;
 }
 
 .shareDiv {
@@ -291,6 +293,7 @@ footer a:last-child {
     grid-gap: 12rem;
     margin-bottom: 11rem;
     color: white;
+    display: none;
 }
 
 .rateDiv {

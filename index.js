@@ -52,7 +52,7 @@ sSeeMore.addEventListener("click", function () {
 });
 
 rSeeMore.addEventListener("click", function () {
-    //    footer.style.display = "flex";
+    footer.style.display = "flex";
     homeHeader.scrollIntoView({
         behavior: "smooth"
     });
