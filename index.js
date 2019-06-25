@@ -7,6 +7,7 @@ const mainCreate = document.querySelector(".mainCreate");
 const mainFind = document.querySelector(".mainFind");
 const mainShare = document.querySelector(".mainShare");
 const mainRate = document.querySelector(".mainRate");
+const homeHeader = document.querySelector(".homeHeader");
 const cSeeMore = document.querySelector("#cSeeMore");
 const fSeeMore = document.querySelector("#fSeeMore");
 const sSeeMore = document.querySelector("#sSeeMore");
@@ -50,10 +51,9 @@ sSeeMore.addEventListener("click", function () {
     });
 });
 
-//rSeeMore.addEventListener("click", function () {
-//    mainRate.style.display = "grid";
+rSeeMore.addEventListener("click", function () {
 //    footer.style.display = "flex";
-//    mainShare.scrollIntoView({
-//        behavior: "smooth"
-//    });
-//});
+    homeHeader.scrollIntoView({
+        behavior: "smooth"
+    });
+});

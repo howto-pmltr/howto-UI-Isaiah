@@ -123,7 +123,7 @@ p {
     z-index: 2;
     display: flex;
     justify-content: space-around;
-    margin-top: 15rem;
+    margin-top: 8.5rem;
 }
 
 .btn {
@@ -195,13 +195,19 @@ footer p {
     display: none;
 }
 
+.mainContent img {
+    border-radius: 12px;
+    width: 100%;
+    height: 70%;
+}
+
 .mainCreate {
     width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
 .createDiv {
@@ -211,18 +217,17 @@ footer p {
 
 .mainCreate img {
     filter: grayscale(20%);
-    border-radius: 12px;
-    width: 95%;
-    height: 700%;
+    width: 60%;
+    height: 70%;
 }
 
 .mainFind {
     width: 80%;
     margin: 0 auto;
-    display: none;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
 .findDiv {
@@ -232,18 +237,15 @@ footer p {
 
 .mainFind img {
     filter: grayscale(90%);
-    border-radius: 12px;
-    width: 100%;
-    height: 90%;
 }
 
 .mainShare {
     width: 80%;
     margin: 0 auto;
-    display: none;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
 .shareDiv {
@@ -251,19 +253,13 @@ footer p {
     align-self: center;
 }
 
-.mainShare img {
-    border-radius: 12px;
-    width: 100%;
-    height: 90%;
-}
-
 .mainRate {
     width: 80%;
     margin: 0 auto;
-    display: none;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
 .rateDiv {
@@ -273,9 +269,44 @@ footer p {
 
 .mainRate img {
     filter: grayscale(50%);
-    border-radius: 12px;
-    width: 100%;
-    height: 90%;
+}
+
+@media (min-width: 1014px) {
+
+    .mainCreate {
+        display: grid;
+    }
+
+    .mainFind {
+        display: none;
+    }
+
+    .mainShare {
+        display: none;
+    }
+
+    .mainRate {
+        display: none;
+    }
+}
+
+@media (max-width: 1014px) {
+
+    .mainCreate {
+        margin-bottom: 8;
+    }
+
+    .mainFind {
+        margin-bottom: 8;
+    }
+
+    .mainShare {
+        margin-bottom: 8;
+    }
+
+    .mainRate {
+        margin-bottom: 8;
+    }
 }
 
 /*About Styling*/
