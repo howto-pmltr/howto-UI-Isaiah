@@ -152,6 +152,14 @@ p {
     background: var(--secondary-color);
 }
 
+#sSeeMore {
+    background: var(--secondary-color);
+}
+
+#rSeeMore {
+    background: var(--secondary-color);
+}
+
 .homeHeader-middle {
     width: 80%;
     margin: 0 auto;
@@ -244,6 +252,27 @@ footer p {
 }
 
 .mainShare img {
+    border-radius: 12px;
+    width: 100%;
+    height: 90%;
+}
+
+.mainRate {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12rem;
+    margin-bottom: 10rem;
+}
+
+.rateDiv {
+    text-align: center;
+    align-self: center;
+}
+
+.mainRate img {
+    filter: grayscale(50%);
     border-radius: 12px;
     width: 100%;
     height: 90%;

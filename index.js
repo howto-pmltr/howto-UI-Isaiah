@@ -6,9 +6,11 @@ const menuItems = document.querySelector(".menuItems");
 const mainCreate = document.querySelector(".mainCreate");
 const mainFind = document.querySelector(".mainFind");
 const mainShare = document.querySelector(".mainShare");
+const mainRate = document.querySelector(".mainRate");
 const cSeeMore = document.querySelector("#cSeeMore");
 const fSeeMore = document.querySelector("#fSeeMore");
-const sSeeMore = document.querySelector("#fSeeMore");
+const sSeeMore = document.querySelector("#sSeeMore");
+const rSeeMore = document.querySelector("#rSeeMore");
 
 //When Learn More button is pressed, main-content is revealed and the page is scrolled to the content.
 learnMore.addEventListener("click", function () {
@@ -39,3 +41,19 @@ fSeeMore.addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+
+sSeeMore.addEventListener("click", function () {
+    mainRate.style.display = "grid";
+    footer.style.display = "flex";
+    mainRate.scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+//rSeeMore.addEventListener("click", function () {
+//    mainRate.style.display = "grid";
+//    footer.style.display = "flex";
+//    mainShare.scrollIntoView({
+//        behavior: "smooth"
+//    });
+//});
