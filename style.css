@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,a {
+h1,h2,h3,h4,h5 {
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -16,7 +16,6 @@ p {
 /*Variables/Styles*/
 :root {
     --primary-color: #c40b13;
-    --secondary-color: #f69314;
 }
 
 /*Animation Classes*/
@@ -28,7 +27,6 @@ p {
     background: url(images/white.png) no-repeat center;
     background-size: 3rem;
     font-size: 4rem;
-    transition: opacity 0.2s ease-in;
 }
 
 #menu:hover {
@@ -36,41 +34,9 @@ p {
     opacity: 0.9;
 }
 
-.menuItems {
-    border: 3px solid black;
-    width: 20%;
-    background: white;
-    opacity: 0;
-}
-
-.toggleMenu {
-    opacity: 1;
-}
-
-.menuItems a{
-    color: white;
-    text-decoration: none;
-    font-size: .8rem;
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: opacity 0.2s ease-in;
-    margin-top: 5px;
-    border-bottom: 1px solid transparent;
-}
-
-.menuItems a:hover{
-    opacity: 0.9;
-    border-bottom: 1px solid #fff;
-}
-
 #learnMore {
     width: 40px;
     height: 35px;
-    transition: opacity 0.2s ease-in;
 }
 
 #learnMore:hover {
@@ -99,7 +65,7 @@ p {
 }
 
 .homeLogo {
-    width: 30%;
+    width: 40%;
     height: auto;
 }
 
@@ -138,20 +104,14 @@ p {
     opacity: 0.9;
 }
 
-#cSeeMore {
-    background: var(--secondary-color);
-}
-
 .homeHeader-middle {
-    width: 80%;
-    margin: 0 auto;
     position: relative;
     z-index: 2;
     color: white;
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2rem;
+    margin-top: 5rem;
     font-family: 'Roboto', sans-serif;
-    padding-top: 1rem;
 }
 
 footer {
@@ -181,8 +141,8 @@ footer {
 .mainCreate img {
     filter: grayscale(20%);
     border-radius: 12px;
-    width: 95%;
-    height: 700%;
+    width: 80%;
+    height: 500%;
 }
 
 /*About Styling*/
