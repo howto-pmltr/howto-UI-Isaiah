@@ -240,7 +240,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
@@ -255,7 +255,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
@@ -274,7 +274,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
@@ -289,7 +289,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
@@ -300,44 +300,6 @@ footer a:last-child {
 
 .mainRate img {
     filter: grayscale(50%);
-}
-
-@media (min-width: 1014px) {
-
-    .mainCreate {
-        display: grid;
-    }
-
-    .mainFind {
-        display: none;
-    }
-
-    .mainShare {
-        display: none;
-    }
-
-    .mainRate {
-        display: none;
-    }
-}
-
-@media (max-width: 1014px) {
-
-    .mainCreate {
-        margin-bottom: 8;
-    }
-
-    .mainFind {
-        margin-bottom: 8;
-    }
-
-    .mainShare {
-        margin-bottom: 8;
-    }
-
-    .mainRate {
-        margin-bottom: 8;
-    }
 }
 
 /*About Styling*/
