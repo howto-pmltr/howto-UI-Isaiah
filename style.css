@@ -265,10 +265,6 @@ footer a:last-child {
     align-self: center;
 }
 
-.mainFind img {
-    filter: grayscale(90%);
-}
-
 .mainShare {
     width: 80%;
     margin: 0 auto;
@@ -299,10 +295,6 @@ footer a:last-child {
 .rateDiv {
     text-align: center;
     align-self: center;
-}
-
-.mainRate img {
-    filter: grayscale(50%);
 }
 
 /*About Styling*/
