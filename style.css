@@ -27,6 +27,7 @@ p {
     background: url(images/white.png) no-repeat center;
     background-size: 3rem;
     font-size: 4rem;
+    transition: opacity 0.2s ease-in;
 }
 
 #menu:hover {
@@ -36,27 +37,38 @@ p {
 
 .menuItems {
     border: 3px solid black;
-    width: 24%;
+    width: 20%;
+    background: white;
+    display: none;
+}
+
+.toggleMenu {
+    display: block;
 }
 
 .menuItems a{
     color: white;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: .8rem;
     position: relative;
     z-index: 2;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    transition: opacity 0.2s ease-in;
+    margin-top: 5px;
 }
 
 .menuItems a:hover{
     opacity: 0.9;
+    border-bottom: 1px solid #fff;
 }
 
 #learnMore {
     width: 40px;
     height: 35px;
+    transition: opacity 0.2s ease-in;
 }
 
 #learnMore:hover {
@@ -125,12 +137,14 @@ p {
 }
 
 .homeHeader-middle {
+    width: 80%;
+    margin: 0 auto;
     position: relative;
     z-index: 2;
     color: white;
     text-align: center;
-    font-size: 2rem;
-    margin-top: 5rem;
+    font-size: 1.9rem;
+    margin-top: 4rem;
     font-family: 'Roboto', sans-serif;
 }
 
