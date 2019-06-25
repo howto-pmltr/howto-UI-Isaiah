@@ -28,6 +28,9 @@ p {
 /*Animation Classes*/
 
 /*Home Styling*/
+.b2 {
+    background: black;
+}
 
 #menu {
     color: var(--primary-color);
@@ -127,8 +130,14 @@ p {
     position: relative;
     z-index: 2;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     margin-top: 8.5rem;
+}
+
+.homeHeader-bottom h1{
+    color: white;
 }
 
 .btn {
@@ -178,7 +187,7 @@ p {
 }
 
 footer {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     width: 100%;
     height: 1.8rem;
     display: flex;
@@ -198,6 +207,7 @@ footer p {
     display: flex;
     flex-direction: column;
     display: none;
+    background: black;
 }
 
 .mainContent img {
@@ -213,6 +223,7 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
     margin-bottom: 12rem;
+    color: white;
 }
 
 .createDiv {
@@ -227,6 +238,7 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
     margin-bottom: 12rem;
+    color: white;
 }
 
 .findDiv {
@@ -245,6 +257,7 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
     margin-bottom: 12rem;
+    color: white;
 }
 
 .shareDiv {
@@ -259,6 +272,7 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
     margin-bottom: 12rem;
+    color: white;
 }
 
 .rateDiv {
