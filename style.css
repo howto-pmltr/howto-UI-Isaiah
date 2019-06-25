@@ -148,16 +148,6 @@ p {
     background: var(--secondary-color);
 }
 
-.fa-circle{
-    margin-top: 1.5rem;
-    color: var(--secondary-color);
-    opacity: .5
-}
-
-.fa-circle:hover{
-    opacity: 1
-}
-
 #fSeeMore {
     background: var(--secondary-color);
 }
@@ -191,8 +181,10 @@ footer p {
 
 /*Home Main Content*/
 .mainContent {
-    display: none;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    display: none;
 }
 
 .mainCreate {
@@ -201,6 +193,7 @@ footer p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
+    margin-bottom: 10rem;
 }
 
 .createDiv {
@@ -218,10 +211,10 @@ footer p {
 .mainFind {
     width: 80%;
     margin: 0 auto;
-    display: grid;
+    display: none;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    display: none;
+    margin-bottom: 10rem;
 }
 
 .findDiv {
@@ -232,8 +225,28 @@ footer p {
 .mainFind img {
     filter: grayscale(90%);
     border-radius: 12px;
-    width: 95%;
-    height: 700%;
+    width: 100%;
+    height: 90%;
+}
+
+.mainShare {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12rem;
+    margin-bottom: 10rem;
+}
+
+.shareDiv {
+    text-align: center;
+    align-self: center;
+}
+
+.mainShare img {
+    border-radius: 12px;
+    width: 100%;
+    height: 90%;
 }
 
 /*About Styling*/
