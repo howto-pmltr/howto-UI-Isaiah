@@ -240,7 +240,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
@@ -255,7 +255,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
@@ -274,7 +274,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
@@ -289,7 +289,7 @@ footer a:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
     color: white;
 }
 
