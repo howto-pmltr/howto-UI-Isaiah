@@ -16,6 +16,7 @@ p {
 /*Variables/Styles*/
 :root {
     --primary-color: #c40b13;
+    --secondary-color: #f69314;
 }
 
 /*Animation Classes*/
@@ -137,6 +138,10 @@ p {
     opacity: 0.9;
 }
 
+#cSeeMore {
+    background: var(--secondary-color);
+}
+
 .homeHeader-middle {
     width: 80%;
     margin: 0 auto;
@@ -176,8 +181,8 @@ footer {
 .mainCreate img {
     filter: grayscale(20%);
     border-radius: 12px;
-    width: 80%;
-    height: 500%;
+    width: 95%;
+    height: 700%;
 }
 
 /*About Styling*/
