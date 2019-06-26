@@ -2,7 +2,9 @@
 const mainContent = document.querySelector(".mainContent");
 const footer = document.querySelector(".footer");
 const menu = document.querySelector("#menu");
+const aboutMenu = document.querySelector(".aboutMenu");
 const menuItems = document.querySelector(".menuItems");
+const menuLinks = document.querySelectorAll(".menuItems a");
 const mainCreate = document.querySelector(".mainCreate");
 const mainFind = document.querySelector(".mainFind");
 const mainShare = document.querySelector(".mainShare");
