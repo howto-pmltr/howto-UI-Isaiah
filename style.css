@@ -316,7 +316,7 @@ footer a:last-child {
 
 .aboutHeader {
     color: white;
-    font-size:3rem;
+    font-size: 3rem;
     box-shadow: 120px 100px 250px #000000;
     text-align: center;
     flex-grow: 2;
@@ -444,4 +444,179 @@ p {
 .menuItems2 a:hover {
     opacity: 0.9;
     color: var(--primary-color);
+}
+
+/*Mobile Media Queries*/
+@media (max-width: 850px) {
+    .people {
+        width: 100%;
+        position: relative;
+        top: 60px;
+        right: 80px;
+    }
+
+    .aboutHeader {
+        font-size: 2.2rem;
+        margin-right: 0rem;
+    }
+
+    .menuItems2 a {
+        display: none;
+    }
+
+    .aboutMenu {
+        display: none;
+    }
+
+    .pImages {
+        height: auto;
+        width: 4rem;
+        margin-right: 0.1rem;
+    }
+
+    .gImages {
+        width: 30px;
+        height: auto;
+        color: white;
+    }
+
+    .contributors {
+        right: 0px;
+    }
+
+    .contributors h3 {
+        font-size: 1rem;
+    }
+
+    .contributors p {
+        font-size: .7rem;
+    }
+
+    .aBody footer {
+        bottom: 0px;
+    }
+
+    .aBody footer p {
+        font-size: 1rem;
+    }
+
+    .aBody footer a {
+        margin-left: 1rem;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .people {
+        width: 80%;
+        position: relative;
+        top: 60px;
+        right: 0px;
+    }
+
+    .aboutHeader {
+        font-size: 1.5rem;
+        margin-right: 0rem;
+    }
+
+    .pImages {
+        height: auto;
+        width: 2.3rem;
+        margin-right: 0.1rem;
+    }
+
+    .gImages {
+        width: 17px;
+        height: auto;
+        color: white;
+    }
+
+    .contributors h3 {
+        font-size: .9rem;
+    }
+
+    .contributors p {
+        font-size: .6rem;
+    }
+
+    .aBody footer {
+        bottom: 0px;
+    }
+
+    .aBody footer p {
+        font-size: .8rem;
+    }
+
+    .aBody footer a {
+        margin-left: .4rem;
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .people {
+        width: 80%;
+        position: relative;
+        top: 60px;
+        right: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .people {
+        width: 80%;
+        position: relative;
+        top: 60px;
+        left: 30px;
+    }
+
+    .aboutHeader {
+        font-size: 1.5rem;
+        margin-right: 0rem;
+    }
+
+    .menuItems2 a {
+        display: none;
+    }
+
+    .aboutMenu {
+        display: none;
+    }
+
+    .pImages {
+        height: auto;
+        width: 2.3rem;
+        margin-right: 0.1rem;
+    }
+
+    .gImages {
+        width: 17px;
+        height: auto;
+        color: white;
+    }
+
+    .contributors {
+        right: 0px;
+    }
+
+    .contributors h3 {
+        font-size: .9rem;
+    }
+
+    .contributors p {
+        font-size: .6rem;
+    }
+
+    .aBody footer {
+        bottom: 0px;
+    }
+
+    .aBody footer p {
+        font-size: .8rem;
+    }
+
+    .aBody footer a {
+        margin-left: .4rem;
+        font-size: .6rem;
+    }
 }
