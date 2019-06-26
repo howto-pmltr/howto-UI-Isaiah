@@ -301,10 +301,15 @@ footer a:last-child {
 }
 
 /*About Styling*/
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .contributors {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     position: absolute;
     z-index: 2;
 }
@@ -315,7 +320,8 @@ footer a:last-child {
     box-shadow: 120px 100px 250px #000000;
 }
 
-.contributors h3,p {
+.contributors h3,
+p {
     color: white;
 }
 
@@ -332,7 +338,7 @@ footer a:last-child {
 .people {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .pImages {
@@ -350,11 +356,14 @@ footer a:last-child {
 }
 
 .aBody footer {
-    width: 200%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    bottom: 1px;
 }
 
 .aBody footer p {
@@ -364,17 +373,28 @@ footer a:last-child {
 }
 
 .aBody footer a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin-left: 1rem;
     transition: opacity 0.2s ease-in;
 }
 
 .aBody footer a:hover {
-    color: black;
+    color: var(--primary-color);
     opacity: .6;
 }
 
 .aBody footer a:last-child {
     margin-right: 1rem;
+}
+
+.homeHeader-top2 {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
 }
