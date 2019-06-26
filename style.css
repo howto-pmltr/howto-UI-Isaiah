@@ -15,7 +15,7 @@ h5 {
 
 a,
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 /*Variables/Styles*/
@@ -49,10 +49,8 @@ p {
     position: relative;
     z-index: 2;
     top: -30px;
-    left: 22px;
-    border: 3px solid var(--primary-color);
+    left: 15px;
     width: 20%;
-    background: white;
     opacity: 0;
 }
 
@@ -61,7 +59,7 @@ p {
 }
 
 .menuItems a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
     position: relative;
@@ -78,7 +76,7 @@ p {
 
 .menuItems a:hover {
     opacity: 0.9;
-    border-bottom: 1px solid black;
+    color: var(--primary-color);
 }
 
 #learnMore {
@@ -115,6 +113,7 @@ p {
 .homeLogo {
     width: 30%;
     height: auto;
+    margin-top: 1rem;
 }
 
 .homeHeader-top {
@@ -138,6 +137,7 @@ p {
 
 .homeHeader-bottom h1 {
     color: white;
+    font-size: 1rem;
 }
 
 .btn {
@@ -160,18 +160,22 @@ p {
 
 #cSeeMore {
     background: var(--primary-color);
+    margin-top: 1rem;
 }
 
 #fSeeMore {
     background: var(--primary-color);
+    margin-top: 1rem;
 }
 
 #sSeeMore {
     background: var(--primary-color);
+    margin-top: 1rem;
 }
 
 #rSeeMore {
     background: var(--primary-color);
+    margin-top: 1rem;
 }
 
 .homeHeader-middle {
@@ -182,12 +186,11 @@ p {
     color: white;
     text-align: center;
     font-size: 1.9rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     padding-top: 1rem;
 }
 
 footer {
-    /*    background: var(--primary-color);*/
     width: 100%;
     height: 3rem;
     display: flex;
@@ -298,86 +301,54 @@ footer a:last-child {
 }
 
 /*About Styling*/
-.aBody {
-    background-color: #999;
-}
-
-.bigLogo {
+.about {
+    width: 80%;
     margin: 0 auto;
-    width: 500px;
-    height: 160px;
-    grid-column: 1;
-    grid-row: 1/10;
 }
 
-.aboutContainer {
-    margin: 0 auto;
-    background: white;
-    width: 1200px;
-    height: 600px;
-    grid-column: 1;
-    grid-row: 2/10;
-}
-
-.container {
+.contributors {
+    width: 100%;
     display: grid;
-    margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
-    width: 95%;
-    height: 600px;
-    grid-gap: 2rem;
+    position: absolute;
+    z-index: 2;
 }
 
-.container p {
-    font-size: .8rem;
-    padding-right: 1rem;
-    border-right: 1px solid black;
+.aboutHeader {
+    color: white;
+    font-size: 4rem;
+    box-shadow: 120px 100px 250px #000000;
 }
 
-.container img {
-    height: auto;
-    width: 1.3rem;
+.contributors h3,
+p {
+    color: white;
 }
 
-.container h1 {
-    margin: 0 auto;
+.contributors h3:hover {
+    color: var(--primary-color);
 }
 
-.contribution {
-    display: flex
-}
-
-.contribution img {
+.pImages {
     height: auto;
     width: 4rem;
     margin-right: 1rem;
 }
 
-.marketing {
-    display: grid;
-    justify-items: center;
-    grid-gap: 2rem;
-}
-
-.holder {
-    display: grid;
-    align-items: center;
-}
-
-.appDevelopment {
-    display: grid;
-    justify-items: center;
-    grid-gap: 2rem;
-}
-
-.aboutT {
-    text-align: center;
-}
-
 .people {
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pImages {
+    border-radius: 50%;
+}
+
+.gImages {
+    width: 20px;
+    height: auto;
+    color: white;
 }
 
 #img:hover {
@@ -385,11 +356,14 @@ footer a:last-child {
 }
 
 .aBody footer {
-    width: 200%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    bottom: 1px;
 }
 
 .aBody footer p {
@@ -399,14 +373,14 @@ footer a:last-child {
 }
 
 .aBody footer a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin-left: 1rem;
     transition: opacity 0.2s ease-in;
 }
 
 .aBody footer a:hover {
-    color: black;
+    color: var(--primary-color);
     opacity: .6;
 }
 
@@ -414,15 +388,13 @@ footer a:last-child {
     margin-right: 1rem;
 }
 
-.aboutMenu {
+.homeHeader-top2 {
+    width: 100%;
+    margin: 0 auto;
     position: relative;
     z-index: 2;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Oxygen', sans-serif;
-}
-
-.aS {
-    margin-right: 2rem;
 }
