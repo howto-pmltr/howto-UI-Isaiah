@@ -301,86 +301,48 @@ footer a:last-child {
 }
 
 /*About Styling*/
-.aBody {
-    background-color: #999;
-}
-
-.bigLogo {
-    margin: 0 auto;
-    width: 500px;
-    height: 160px;
-    grid-column: 1;
-    grid-row: 1/10;
-}
-
-.aboutContainer {
-    margin: 0 auto;
-    background: white;
-    width: 1200px;
-    height: 600px;
-    grid-column: 1;
-    grid-row: 2/10;
-}
-
-.container {
+.contributors {
+    width: 100%;
     display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(2, 1fr);
-    width: 95%;
-    height: 600px;
-    grid-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+    position: absolute;
+    z-index: 2;
 }
 
-.container p {
-    font-size: .8rem;
-    padding-right: 1rem;
-    border-right: 1px solid black;
+.aboutHeader {
+    color: white;
+    font-size: 4rem;
+    box-shadow: 120px 100px 250px #000000;
 }
 
-.container img {
-    height: auto;
-    width: 1.3rem;
+.contributors h3,p {
+    color: white;
 }
 
-.container h1 {
-    margin: 0 auto;
+.contributors h3:hover {
+    color: var(--primary-color);
 }
 
-.contribution {
-    display: flex
-}
-
-.contribution img {
+.pImages {
     height: auto;
     width: 4rem;
     margin-right: 1rem;
 }
 
-.marketing {
-    display: grid;
-    justify-items: center;
-    grid-gap: 2rem;
-}
-
-.holder {
-    display: grid;
-    align-items: center;
-}
-
-.appDevelopment {
-    display: grid;
-    justify-items: center;
-    grid-gap: 2rem;
-}
-
-.aboutT {
-    text-align: center;
-}
-
 .people {
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.pImages {
+    border-radius: 50%;
+}
+
+.gImages {
+    width: 20px;
+    height: auto;
+    color: white;
 }
 
 #img:hover {
@@ -415,17 +377,4 @@ footer a:last-child {
 
 .aBody footer a:last-child {
     margin-right: 1rem;
-}
-
-.aboutMenu {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Oxygen', sans-serif;
-}
-
-.aS {
-    margin-right: 2rem;
 }
