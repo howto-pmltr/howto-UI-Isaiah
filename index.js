@@ -13,7 +13,17 @@ const homeHeader = document.querySelector(".homeHeader");
 
 //When Learn More button is pressed, main-content is revealed and the page is scrolled to the content.
 learnMore.addEventListener("click", function () {
-    mainContent.style.display = "block";
+    mainContent.style.visibility = "visible";
+    mainContent.style.height = "max-content";
+    footer.style.display = "flex";
+    mainContent.scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+learnMore.addEventListener("scroll", function () {
+    mainContent.style.visibility = "visible";
+    mainContent.style.height = "max-content";
     footer.style.display = "flex";
     mainContent.scrollIntoView({
         behavior: "smooth"
