@@ -346,26 +346,29 @@ p {
 /*Mobile Media Queries*/
 @media (min-width: 850px) {
     footer a:hover {
-    color: white;
-    opacity: .9;
-}
+        color: white;
+        opacity: .9;
+    }
+
     .btn:hover {
-    opacity: 0.9;
-}
+        opacity: 0.9;
+    }
+
     #learnMore:hover {
-    cursor: pointer;
-    opacity: 0.9;
-}
+        cursor: pointer;
+        opacity: 0.9;
+    }
+
     .menuItems a:hover {
-    opacity: 0.9;
-    color: var(--primary-color);
-}
-    
+        opacity: 0.9;
+        color: var(--primary-color);
+    }
+
     #menu:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-    
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
     .menuItems2 a:hover {
         opacity: 0.9;
         color: var(--primary-color);
