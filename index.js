@@ -1,4 +1,5 @@
 // DOM Selectors
+const body = document.querySelector(".b2");
 const mainContent = document.querySelector("#mainContent");
 const footer = document.querySelector(".footer");
 const menu = document.querySelector("#menu");
@@ -16,6 +17,7 @@ learnMore.addEventListener("click", function () {
     mainContent.style.visibility = "visible";
     mainContent.style.height = "max-content";
     footer.style.display = "flex";
+    body.style.overflow = "visible";
     mainContent.scrollIntoView({
         behavior: "smooth"
     });
