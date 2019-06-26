@@ -34,7 +34,6 @@ p {
 
 #menu {
     color: var(--primary-color);
-    background: url(images/white.png) no-repeat center;
     background-size: 3rem;
     font-size: 4rem;
     transition: opacity 0.2s ease-in;
@@ -42,14 +41,14 @@ p {
 
 #menu:hover {
     cursor: pointer;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .menuItems {
     position: relative;
     z-index: 2;
-    top: -30px;
-    left: 15px;
+    top: -20px;
+    left: 17px;
     width: 20%;
     opacity: 0;
 }
@@ -72,6 +71,7 @@ p {
     margin-top: 5px;
     border-bottom: 1px solid transparent;
     font-weight: 800;
+    cursor: default;
 }
 
 .menuItems a:hover {
@@ -302,13 +302,13 @@ footer a:last-child {
 
 /*About Styling*/
 .about {
-    width: 80%;
+    width: 35%;
     margin: 0 auto;
 }
 
 .contributors {
-    width: 100%;
     display: grid;
+    grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
     position: absolute;
     z-index: 2;
@@ -316,8 +316,11 @@ footer a:last-child {
 
 .aboutHeader {
     color: white;
-    font-size: 4rem;
+    font-size:3rem;
     box-shadow: 120px 100px 250px #000000;
+    text-align: center;
+    flex-grow: 2;
+    margin-right: 7rem;
 }
 
 .contributors h3,
@@ -389,12 +392,56 @@ p {
 }
 
 .homeHeader-top2 {
-    width: 100%;
-    margin: 0 auto;
     position: relative;
     z-index: 2;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Oxygen', sans-serif;
+}
+
+.aboutMenu {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    transition: opacity 0.2s ease-in;
+}
+
+.aboutMenu:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.menuItems2 {
+    position: relative;
+    z-index: 2;
+    top: -3px;
+    right: 60px;
+    width: 20%;
+    opacity: 0;
+}
+
+.toggleMenu2 {
+    opacity: 1;
+}
+
+.menuItems2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: opacity 0.2s ease-in;
+    margin-top: 5px;
+    border-bottom: 1px solid transparent;
+    font-weight: 800;
+    cursor: default;
+}
+
+.menuItems2 a:hover {
+    opacity: 0.9;
+    color: var(--primary-color);
 }
