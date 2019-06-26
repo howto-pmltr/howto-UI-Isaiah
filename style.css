@@ -308,10 +308,6 @@ p {
     color: white;
 }
 
-.contributors h3:hover {
-    color: var(--primary-color);
-}
-
 .pImages {
     height: auto;
     width: 15rem;
@@ -331,10 +327,6 @@ p {
     margin: 0 auto;
 }
 
-#img:hover {
-    cursor: pointer;
-}
-
 .homeHeader-top2 {
     position: relative;
     z-index: 2;
@@ -348,11 +340,6 @@ p {
     margin-left: 2rem;
     margin-top: 2rem;
     transition: opacity 0.2s ease-in;
-}
-
-.aboutMenu:hover {
-    cursor: pointer;
-    opacity: 0.7;
 }
 
 .menuItems2 {
@@ -385,12 +372,27 @@ p {
     cursor: default;
 }
 
-.menuItems2 a:hover {
-    opacity: 0.9;
-    color: var(--primary-color);
+/*Mobile Media Queries*/
+@media (min-width: 850px) {
+    .menuItems2 a:hover {
+        opacity: 0.9;
+        color: var(--primary-color);
+    }
+
+    .aboutMenu:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    #img:hover {
+        cursor: pointer;
+    }
+
+    .contributors h3:hover {
+        color: var(--primary-color);
+    }
 }
 
-/*Mobile Media Queries*/
 @media (max-width: 1014px) {
     .menuItems2 {
         right: 2.3rem;
@@ -686,7 +688,7 @@ p {
     .menuItems2 {
         right: -1.5rem;
     }
-    
+
     .menuItems2 a {
         font-size: .8rem;
     }
