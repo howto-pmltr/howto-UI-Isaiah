@@ -211,7 +211,7 @@ footer a:last-child {
 /*Home Main Content*/
 
 .slick-arrow:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #mainContent {
@@ -560,6 +560,26 @@ p {
         font-size: 1.5rem;
         margin-left: 2rem;
     }
+    
+    #mainContent img {
+        width: 40%;
+    }
+
+    .createDiv {
+        width: 60%;
+    }
+
+    .findDiv {
+        width: 60%;
+    }
+
+    .shareDiv {
+        width: 60%;
+    }
+
+    .rateDiv {
+        width: 60%;
+    }
 }
 
 @media (max-width: 740px) {
@@ -641,6 +661,27 @@ p {
         padding: 0.4rem .9rem;
         font-size: .9rem;
     }
+    
+        #mainContent img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .createDiv {
+        width: 100%;
+    }
+
+    .findDiv {
+        width: 100%;
+    }
+
+    .shareDiv {
+        width: 100%;
+    }
+
+    .rateDiv {
+        width: 100%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -687,6 +728,27 @@ p {
     footer a {
         font-size: 1rem;
         margin-left: 1rem;
+    }
+
+    #mainContent img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .createDiv {
+        width: 100%;
+    }
+
+    .findDiv {
+        width: 100%;
+    }
+
+    .shareDiv {
+        width: 100%;
+    }
+
+    .rateDiv {
+        width: 100%;
     }
 }
 
