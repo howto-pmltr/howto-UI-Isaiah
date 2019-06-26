@@ -11,7 +11,7 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('./fonts/slick.eot');
+    src: url('./ima/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 
@@ -77,6 +77,7 @@
 
 .slick-prev {
     left: -25px;
+    z-index: 9999;
 }
 
 [dir='rtl'] .slick-prev {
