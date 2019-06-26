@@ -308,6 +308,7 @@ footer a:last-child {
 
 .contributors {
     display: grid;
+    top: 100px;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
     position: absolute;
@@ -504,6 +505,113 @@ p {
         margin-left: 1rem;
         font-size: .8rem;
     }
+
+    .homeHeader-top {
+        display: flex;
+        height: 8rem;
+        flex-direction: column;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .homeHeader-middle {
+        width: 100%;
+        line-height: 2rem;
+        font-size: 1.3rem;
+        font-family: 'Oxygen', sans-serif;
+        padding-top: 5rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .menuItems {
+        display: none;
+    }
+
+    .homeLogo {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        width: 50%;
+    }
+
+    .btn {
+        padding: 0.4rem .9rem;
+        font-size: .9rem;
+    }
+
+    .homeHeader-top {
+        display: flex;
+        height: 8rem;
+        flex-direction: column;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .homeHeader-middle {
+        width: 100%;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        font-family: 'Oxygen', sans-serif;
+        padding-top: 3rem;
+    }
+
+    .homeLogo {
+        width: 60%;
+    }
+
+    .btn {
+        padding: 0.4rem .7rem;
+        font-size: .7rem;
+    }
+
+    .mainContent img {
+        border-radius: 12px;
+        width: 100%;
+        height: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .mainCreate {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainFind {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainShare {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainRate {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    footer p {
+        font-size: 2em;
+        flex-grow: 1;
+    }
+
+    footer a {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
 }
 
 @media (max-width: 740px) {
@@ -551,6 +659,40 @@ p {
         margin-left: .4rem;
         font-size: .6rem;
     }
+
+    .homeHeader-top {
+        display: flex;
+        height: 8rem;
+        flex-direction: column;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .homeHeader-middle {
+        width: 100%;
+        line-height: 2rem;
+        font-size: 1.3rem;
+        font-family: 'Oxygen', sans-serif;
+        padding-top: 5rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .menuItems {
+        display: none;
+    }
+
+    .homeLogo {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        width: 50%;
+    }
+
+    .btn {
+        padding: 0.4rem .9rem;
+        font-size: .9rem;
+    }
 }
 
 @media (max-width: 650px) {
@@ -559,6 +701,79 @@ p {
         position: relative;
         top: 60px;
         right: 40px;
+    }
+
+    .homeHeader-top {
+        display: flex;
+        height: 8rem;
+        flex-direction: column;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .homeHeader-middle {
+        width: 100%;
+        line-height: 1.4rem;
+        font-size: .9rem;
+        font-family: 'Oxygen', sans-serif;
+        padding-top: 3rem;
+    }
+
+    .homeLogo {
+        width: 60%;
+    }
+
+    .btn {
+        padding: 0.4rem .7rem;
+        font-size: .7rem;
+    }
+
+    .mainContent img {
+        border-radius: 12px;
+        width: 100%;
+        height: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .mainCreate {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainFind {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainShare {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainRate {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    footer p {
+        font-size: 1.4rem;
+        flex-grow: 1;
+    }
+
+    footer a {
+        font-size: 1rem;
+        margin-left: 1rem;
     }
 }
 
@@ -618,5 +833,78 @@ p {
     .aBody footer a {
         margin-left: .4rem;
         font-size: .6rem;
+    }
+
+    .homeHeader-top {
+        display: flex;
+        height: 8rem;
+        flex-direction: column;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .homeHeader-middle {
+        width: 100%;
+        line-height: 1.4rem;
+        font-size: .9rem;
+        font-family: 'Oxygen', sans-serif;
+        padding-top: 3rem;
+    }
+
+    .homeLogo {
+        width: 60%;
+    }
+
+    .btn {
+        padding: 0.4rem .7rem;
+        font-size: .7rem;
+    }
+
+    .mainContent img {
+        border-radius: 12px;
+        width: 100%;
+        height: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .mainCreate {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainFind {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainShare {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainRate {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    footer p {
+        font-size: .8rem;
+        flex-grow: 1;
+    }
+
+    footer a {
+        font-size: .7rem;
+        margin-left: .8rem;
     }
 }
