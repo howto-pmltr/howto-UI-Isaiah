@@ -8,7 +8,7 @@ $('.slick-carousel').slick({
 });
 
 $('.slick-carousel2').slick({
-    dots: true,
+//    dots: true,
     infinite: true,
     slidesToShow: 1,
     arrows: false,
