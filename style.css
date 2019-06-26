@@ -44,11 +44,6 @@ p {
     transition: opacity 0.2s ease-in;
 }
 
-#menu:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
 .menuItems {
     position: relative;
     z-index: 2;
@@ -79,20 +74,10 @@ p {
     cursor: default;
 }
 
-.menuItems a:hover {
-    opacity: 0.9;
-    color: var(--primary-color);
-}
-
 #learnMore {
     width: 40px;
     height: 35px;
     transition: opacity 0.2s ease-in;
-}
-
-#learnMore:hover {
-    cursor: pointer;
-    opacity: 0.9;
 }
 
 .homeHeader {
@@ -160,10 +145,6 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
-.btn:hover {
-    opacity: 0.9;
-}
-
 .homeHeader-middle {
     width: 80%;
     margin: 0 auto;
@@ -199,21 +180,11 @@ footer a {
     transition: opacity 0.2s ease-in;
 }
 
-footer a:hover {
-    color: white;
-    opacity: .9;
-}
-
 footer a:last-child {
     margin-right: 1rem;
 }
 
 /*Home Main Content*/
-
-.slick-arrow:hover {
-    cursor: pointer;
-}
-
 #mainContent {
     height: 0;
     width: 100%;
@@ -290,10 +261,6 @@ footer a:last-child {
 }
 
 .contributors {
-    display: grid;
-    top: 100px;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
     position: absolute;
     z-index: 2;
 }
@@ -312,67 +279,23 @@ p {
     color: white;
 }
 
-.contributors h3:hover {
-    color: var(--primary-color);
-}
-
 .pImages {
     height: auto;
-    width: 4rem;
-    margin-right: 1rem;
+    width: 15rem;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 .people {
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.pImages {
-    border-radius: 50%;
+    display: flex;
 }
 
 .gImages {
-    width: 20px;
+    width: 2rem;
     height: auto;
     color: white;
-}
-
-#img:hover {
-    cursor: pointer;
-}
-
-.aBody footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    position: absolute;
-    z-index: 2;
-    bottom: 1px;
-}
-
-.aBody footer p {
-    font-size: 1rem;
-    flex-grow: 2;
-    margin-left: 1rem;
-}
-
-.aBody footer a {
-    color: white;
-    text-decoration: none;
-    margin-left: 1rem;
-    transition: opacity 0.2s ease-in;
-}
-
-.aBody footer a:hover {
-    color: var(--primary-color);
-    opacity: .6;
-}
-
-.aBody footer a:last-child {
-    margin-right: 1rem;
+    margin: 0 auto;
 }
 
 .homeHeader-top2 {
@@ -388,11 +311,6 @@ p {
     margin-left: 2rem;
     margin-top: 2rem;
     transition: opacity 0.2s ease-in;
-}
-
-.aboutMenu:hover {
-    cursor: pointer;
-    opacity: 0.7;
 }
 
 .menuItems2 {
@@ -425,70 +343,58 @@ p {
     cursor: default;
 }
 
-.menuItems2 a:hover {
-    opacity: 0.9;
-    color: var(--primary-color);
+/*Mobile Media Queries*/
+@media (min-width: 850px) {
+    footer a:hover {
+        color: white;
+        opacity: .9;
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
+
+    #learnMore:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+
+    .menuItems a:hover {
+        opacity: 0.9;
+        color: var(--primary-color);
+    }
+
+    #menu:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    .menuItems2 a:hover {
+        opacity: 0.9;
+        color: var(--primary-color);
+    }
+
+    .aboutMenu:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    #img:hover {
+        cursor: pointer;
+    }
+
+    .contributors h3:hover {
+        color: var(--primary-color);
+    }
 }
 
-/*Mobile Media Queries*/
+@media (max-width: 1014px) {
+    .menuItems2 {
+        right: 2.3rem;
+    }
+}
+
 @media (max-width: 850px) {
-    .people {
-        width: 100%;
-        position: relative;
-        top: 60px;
-        right: 80px;
-    }
-
-    .aboutHeader {
-        font-size: 2.2rem;
-        margin-right: 0rem;
-    }
-
-    .menuItems2 a {
-        display: none;
-    }
-
-    .aboutMenu {
-        display: none;
-    }
-
-    .pImages {
-        height: auto;
-        width: 4rem;
-        margin-right: 0.1rem;
-    }
-
-    .gImages {
-        width: 30px;
-        height: auto;
-        color: white;
-    }
-
-    .contributors {
-        right: 0px;
-    }
-
-    .contributors h3 {
-        font-size: 1rem;
-    }
-
-    .contributors p {
-        font-size: .7rem;
-    }
-
-    .aBody footer {
-        bottom: 0px;
-    }
-
-    .aBody footer p {
-        font-size: 1rem;
-    }
-
-    .aBody footer a {
-        margin-left: 1rem;
-        font-size: .8rem;
-    }
-
     .homeHeader-top {
         display: flex;
         height: 8rem;
@@ -502,6 +408,10 @@ p {
         font-size: 1.3rem;
         font-family: 'Oxygen', sans-serif;
         padding-top: 5rem;
+    }
+
+    .menuItems2 {
+        right: 1.3rem;
     }
 
     #menu {
@@ -560,7 +470,7 @@ p {
         font-size: 1.5rem;
         margin-left: 2rem;
     }
-    
+
     #mainContent img {
         width: 40%;
     }
@@ -583,51 +493,6 @@ p {
 }
 
 @media (max-width: 740px) {
-    .people {
-        width: 80%;
-        position: relative;
-        top: 60px;
-        right: 0px;
-    }
-
-    .aboutHeader {
-        font-size: 1.5rem;
-        margin-right: 0rem;
-    }
-
-    .pImages {
-        height: auto;
-        width: 2.3rem;
-        margin-right: 0.1rem;
-    }
-
-    .gImages {
-        width: 17px;
-        height: auto;
-        color: white;
-    }
-
-    .contributors h3 {
-        font-size: .9rem;
-    }
-
-    .contributors p {
-        font-size: .6rem;
-    }
-
-    .aBody footer {
-        bottom: 0px;
-    }
-
-    .aBody footer p {
-        font-size: .8rem;
-    }
-
-    .aBody footer a {
-        margin-left: .4rem;
-        font-size: .6rem;
-    }
-
     .homeHeader-top {
         display: flex;
         height: 8rem;
@@ -661,8 +526,8 @@ p {
         padding: 0.4rem .9rem;
         font-size: .9rem;
     }
-    
-        #mainContent img {
+
+    #mainContent img {
         width: 100%;
         height: 20rem;
     }
@@ -682,16 +547,17 @@ p {
     .rateDiv {
         width: 100%;
     }
+
+    .pImages {
+        width: 10rem;
+    }
+
+    .menuItems2 {
+        right: .8rem;
+    }
 }
 
 @media (max-width: 650px) {
-    .people {
-        width: 80%;
-        position: relative;
-        top: 60px;
-        right: 40px;
-    }
-
     .homeHeader-top {
         display: flex;
         height: 8rem;
@@ -750,66 +616,17 @@ p {
     .rateDiv {
         width: 100%;
     }
+
+    .pImages {
+        width: 9rem;
+    }
+
+    .menuItems2 {
+        right: .1rem;
+    }
 }
 
 @media (max-width: 500px) {
-    .people {
-        width: 80%;
-        position: relative;
-        top: 60px;
-        left: 30px;
-    }
-
-    .aboutHeader {
-        font-size: 1.5rem;
-        margin-right: 0rem;
-    }
-
-    .menuItems2 a {
-        display: none;
-    }
-
-    .aboutMenu {
-        display: none;
-    }
-
-    .pImages {
-        height: auto;
-        width: 2.3rem;
-        margin-right: 0.1rem;
-    }
-
-    .gImages {
-        width: 17px;
-        height: auto;
-        color: white;
-    }
-
-    .contributors {
-        right: 0px;
-    }
-
-    .contributors h3 {
-        font-size: .9rem;
-    }
-
-    .contributors p {
-        font-size: .6rem;
-    }
-
-    .aBody footer {
-        bottom: 0px;
-    }
-
-    .aBody footer p {
-        font-size: .8rem;
-    }
-
-    .aBody footer a {
-        margin-left: .4rem;
-        font-size: .6rem;
-    }
-
     .homeHeader-top {
         display: flex;
         height: 8rem;
@@ -843,5 +660,35 @@ p {
     footer a {
         font-size: .7rem;
         margin-left: .8rem;
+    }
+
+    .pImages {
+        width: 7rem;
+    }
+
+    .menuItems2 {
+        right: -1rem;
+    }
+
+    .aboutHeader {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .pImages {
+        width: 5rem;
+    }
+
+    .menuItems2 {
+        right: -1.5rem;
+    }
+
+    .menuItems2 a {
+        font-size: .8rem;
+    }
+
+    .aboutHeader {
+        font-size: 2rem;
     }
 }
