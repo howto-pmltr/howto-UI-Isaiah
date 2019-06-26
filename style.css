@@ -28,8 +28,17 @@ p {
 /*Animation Classes*/
 
 /*Home Styling*/
+html {
+    min-height: calc(100vh - 124px);
+}
+
+.mainContent {
+    overflow: hidden;
+}
+
 .b2 {
     background: black;
+    overflow-y: scroll;
 }
 
 #menu {
@@ -158,26 +167,6 @@ p {
     opacity: 0.9;
 }
 
-#cSeeMore {
-    background: var(--primary-color);
-    margin-top: 1rem;
-}
-
-#fSeeMore {
-    background: var(--primary-color);
-    margin-top: 1rem;
-}
-
-#sSeeMore {
-    background: var(--primary-color);
-    margin-top: 1rem;
-}
-
-#rSeeMore {
-    background: var(--primary-color);
-    margin-top: 1rem;
-}
-
 .homeHeader-middle {
     width: 80%;
     margin: 0 auto;
@@ -223,81 +212,79 @@ footer a:last-child {
 }
 
 /*Home Main Content*/
-.mainContent {
+
+.slick-arrow:hover {
+    cursor: pointer;
+}
+
+#mainContent {
+    height: 0;
+    width: 100%;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    display: none;
+    visibility: hidden;
     background: black;
 }
 
-.mainContent img {
+#mainContent img {
+    margin: 0 auto;
+    margin-top: 2rem;
     border-radius: 12px;
-    width: 100%;
-    height: 100%;
+    width: 30%;
+    height: auto;
 }
 
 .mainCreate {
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
     color: white;
 }
 
 .createDiv {
+    width: 30%;
     text-align: center;
-    align-self: center;
+    margin: 0 auto;
 }
 
 .mainFind {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
+    grid-gap: 2rem;
     color: white;
-    display: none;
 }
 
 .findDiv {
+    width: 30%;
     text-align: center;
-    align-self: center;
+    margin: 0 auto;
 }
 
 .mainShare {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
+    grid-gap: 2rem;
     color: white;
-    display: none;
 }
 
 .shareDiv {
+    width: 30%;
     text-align: center;
-    align-self: center;
+    margin: 0 auto;
 }
 
 .mainRate {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
+    grid-gap: 2rem;
     color: white;
-    display: none;
 }
 
 .rateDiv {
+    width: 30%;
     text-align: center;
-    align-self: center;
+    margin: 0 auto;
 }
 
 /*About Styling*/
@@ -564,41 +551,6 @@ p {
         font-size: .7rem;
     }
 
-    .mainContent img {
-        border-radius: 12px;
-        width: 100%;
-        height: 100%;
-        margin-top: 1.5rem;
-    }
-
-    .mainCreate {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainFind {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainShare {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainRate {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
     .btn {
         display: none;
     }
@@ -727,41 +679,6 @@ p {
         font-size: .7rem;
     }
 
-    .mainContent img {
-        border-radius: 12px;
-        width: 100%;
-        height: 100%;
-        margin-top: 1.5rem;
-    }
-
-    .mainCreate {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainFind {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainShare {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainRate {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
     .btn {
         display: none;
     }
@@ -857,44 +774,6 @@ p {
     .btn {
         padding: 0.4rem .7rem;
         font-size: .7rem;
-    }
-
-    .mainContent img {
-        border-radius: 12px;
-        width: 100%;
-        height: 100%;
-        margin-top: 1.5rem;
-    }
-
-    .mainCreate {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainFind {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainShare {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mainRate {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .btn {
         display: none;
     }
 
