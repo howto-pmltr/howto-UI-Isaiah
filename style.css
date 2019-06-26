@@ -238,29 +238,23 @@ footer a:last-child {
 }
 
 .mainCreate {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
+    grid-gap: 2rem;
     color: white;
 }
 
 .createDiv {
     text-align: center;
-    align-self: center;
 }
 
 .mainFind {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
+    grid-gap: 2rem;
     color: white;
-    display: none;
 }
 
 .findDiv {
@@ -269,14 +263,11 @@ footer a:last-child {
 }
 
 .mainShare {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
+    grid-gap: 2rem;
     color: white;
-    display: none;
 }
 
 .shareDiv {
@@ -285,14 +276,11 @@ footer a:last-child {
 }
 
 .mainRate {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12rem;
-    margin-bottom: 11rem;
+    grid-gap: 2rem;
     color: white;
-    display: none;
 }
 
 .rateDiv {
