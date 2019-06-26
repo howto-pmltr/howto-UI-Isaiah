@@ -44,11 +44,6 @@ p {
     transition: opacity 0.2s ease-in;
 }
 
-#menu:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
 .menuItems {
     position: relative;
     z-index: 2;
@@ -79,20 +74,10 @@ p {
     cursor: default;
 }
 
-.menuItems a:hover {
-    opacity: 0.9;
-    color: var(--primary-color);
-}
-
 #learnMore {
     width: 40px;
     height: 35px;
     transition: opacity 0.2s ease-in;
-}
-
-#learnMore:hover {
-    cursor: pointer;
-    opacity: 0.9;
 }
 
 .homeHeader {
@@ -160,10 +145,6 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
-.btn:hover {
-    opacity: 0.9;
-}
-
 .homeHeader-middle {
     width: 80%;
     margin: 0 auto;
@@ -199,21 +180,11 @@ footer a {
     transition: opacity 0.2s ease-in;
 }
 
-footer a:hover {
-    color: white;
-    opacity: .9;
-}
-
 footer a:last-child {
     margin-right: 1rem;
 }
 
 /*Home Main Content*/
-
-.slick-arrow:hover {
-    cursor: pointer;
-}
-
 #mainContent {
     height: 0;
     width: 100%;
@@ -374,6 +345,27 @@ p {
 
 /*Mobile Media Queries*/
 @media (min-width: 850px) {
+    footer a:hover {
+    color: white;
+    opacity: .9;
+}
+    .btn:hover {
+    opacity: 0.9;
+}
+    #learnMore:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+    .menuItems a:hover {
+    opacity: 0.9;
+    color: var(--primary-color);
+}
+    
+    #menu:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+    
     .menuItems2 a:hover {
         opacity: 0.9;
         color: var(--primary-color);
