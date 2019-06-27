@@ -18,6 +18,7 @@ learnMore.addEventListener("click", function () {
     mainContent.style.height = "max-content";
     footer.style.display = "flex";
     body.style.overflow = "visible";
+    body.style.overflowX = "hidden";
     footer.scrollIntoView({
         behavior: "smooth"
     });
